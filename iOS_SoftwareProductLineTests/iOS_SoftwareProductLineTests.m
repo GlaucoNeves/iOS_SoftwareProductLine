@@ -2,7 +2,7 @@
 //  iOS_SoftwareProductLineTests.m
 //  iOS_SoftwareProductLineTests
 //
-//  Created by mobLee on 3/27/14.
+//  Created by Glauco Neves on 3/27/14.
 //  Copyright (c) 2014 GlaucoNeves. All rights reserved.
 //
 
