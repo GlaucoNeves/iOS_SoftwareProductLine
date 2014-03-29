@@ -1,18 +1,19 @@
 //
-//  iOS_SoftwareProductLineTests.m
-//  iOS_SoftwareProductLineTests
+//  TopicTests.m
+//  iOS_SoftwareProductLine
 //
-//  Created by Glauco Neves on 3/27/14.
+//  Created by Glauco Neves on 3/29/14.
 //  Copyright (c) 2014 GlaucoNeves. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
+#import "Topic.h"
 
-@interface iOS_SoftwareProductLineTests : XCTestCase
+@interface TopicTests : XCTestCase
 
 @end
 
-@implementation iOS_SoftwareProductLineTests
+@implementation TopicTests
 
 - (void)setUp
 {
@@ -26,9 +27,9 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    XCTAssertTrue(true);
+- (void)testThatTopicExists {
+    Topic *topic = [[Topic alloc] init];
+    XCTAssertNotNil(topic, @"Should be able to create a Topic instance");
 }
 
 @end

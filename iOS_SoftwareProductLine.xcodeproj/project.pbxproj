@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7E0BD21CCE62453C9BF59A5D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFA14E8811E43CDBEC4237B /* libPods.a */; };
+		7F47D0A08F318C7A6E2FF12D /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47DD0D65323624EE0D1EBC /* Topic.m */; };
 		7F47D0F4DFAB59D9303489D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47D3C3E386648E416FA4B4 /* main.m */; };
+		7F47D232F4E41B5AE0C78375 /* TopicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47D75A704890B582CE992B /* TopicTests.m */; };
 		7F47D254DDFC9894730C5856 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47D4706872348FE9A231BE /* AppDelegate.m */; };
 		7F47D29EF1F5BCB8373CB83C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F47DD6188970AB1A8C98E36 /* InfoPlist.strings */; };
 		7F47D30E1AF1A9ECA521C0F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F47DCF178D9E9496DD03DA6 /* Foundation.framework */; };
 		7F47D43A2B26812509BB06FA /* iOS_SoftwareProductLine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F47D4FEE292F9D666818FC8 /* iOS_SoftwareProductLine.xcdatamodeld */; };
-		7F47D617A836E749FA8366F1 /* iOS_SoftwareProductLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47D79432AC30F29B7A99A1 /* iOS_SoftwareProductLineTests.m */; };
 		7F47D6479D92792D780632BE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F47D4836A895C13FE152F8B /* CoreData.framework */; };
 		7F47D82369096EA663B09708 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F47D2D2CE04276A8CC35C68 /* Images.xcassets */; };
 		7F47D8FA5A6EB24F45916A44 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F47D086AC22F6BB14D2C625 /* XCTest.framework */; };
@@ -22,6 +23,7 @@
 		7F47DB862E8840A10CD23FCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F47D65F63D6544EBEB92431 /* CoreGraphics.framework */; };
 		7F47DBB3BE507EA977F66ABF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F47D5C99BAF942AEE373A60 /* UIKit.framework */; };
 		7F47DC9ACC72A14ADF570C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F47DCF178D9E9496DD03DA6 /* Foundation.framework */; };
+		7F47DDD0FE62DF7E69C3CAD8 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47DD0D65323624EE0D1EBC /* Topic.m */; };
 		7F47DE53AD1C0135B3537AD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F47D855ACACF4A2A19A76EF /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
@@ -50,12 +52,14 @@
 		7F47D588D378D84ADF5AEB2D /* iOS_SoftwareProductLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_SoftwareProductLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F47D5C99BAF942AEE373A60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7F47D65F63D6544EBEB92431 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7F47D79432AC30F29B7A99A1 /* iOS_SoftwareProductLineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_SoftwareProductLineTests.m; sourceTree = "<group>"; };
+		7F47D75A704890B582CE992B /* TopicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTests.m; sourceTree = "<group>"; };
+		7F47D8EE77FB03707C0864B8 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
 		7F47D996D58968AEBEE8A291 /* iOS_SoftwareProductLine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_SoftwareProductLine-Prefix.pch"; sourceTree = "<group>"; };
 		7F47DACA71298874272EB291 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F47DBDCB53780469DB3B95A /* iOS_SoftwareProductLine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_SoftwareProductLine.xcdatamodel; sourceTree = "<group>"; };
 		7F47DCA7845DF34BDCE8747C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F47DCF178D9E9496DD03DA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F47DD0D65323624EE0D1EBC /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 				7F47D4706872348FE9A231BE /* AppDelegate.m */,
 				7F47D2D2CE04276A8CC35C68 /* Images.xcassets */,
 				7F47D4FEE292F9D666818FC8 /* iOS_SoftwareProductLine.xcdatamodeld */,
+				7F47DD0D65323624EE0D1EBC /* Topic.m */,
+				7F47D8EE77FB03707C0864B8 /* Topic.h */,
 			);
 			path = iOS_SoftwareProductLine;
 			sourceTree = "<group>";
@@ -143,7 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				7F47DBC3B223F9C2D5A181DA /* Supporting Files */,
-				7F47D79432AC30F29B7A99A1 /* iOS_SoftwareProductLineTests.m */,
+				7F47D75A704890B582CE992B /* TopicTests.m */,
 			);
 			path = iOS_SoftwareProductLineTests;
 			sourceTree = "<group>";
@@ -217,8 +223,6 @@
 			mainGroup = 7F47DDCDE30FCC68F7F7DD58;
 			productRefGroup = 7F47D79EA606AA88C6167A06 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				7F47D70F94F4AC41F64763E7 /* iOS_SoftwareProductLine */,
@@ -288,6 +292,7 @@
 				7F47D0F4DFAB59D9303489D9 /* main.m in Sources */,
 				7F47D254DDFC9894730C5856 /* AppDelegate.m in Sources */,
 				7F47D43A2B26812509BB06FA /* iOS_SoftwareProductLine.xcdatamodeld in Sources */,
+				7F47DDD0FE62DF7E69C3CAD8 /* Topic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +300,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F47D617A836E749FA8366F1 /* iOS_SoftwareProductLineTests.m in Sources */,
+				7F47D232F4E41B5AE0C78375 /* TopicTests.m in Sources */,
+				7F47D0A08F318C7A6E2FF12D /* Topic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -424,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -469,6 +475,7 @@
 				7F47D2CED6BC43A1A05BE800 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F47D501632ED76814B4B219 /* Build configuration list for PBXProject "iOS_SoftwareProductLine" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +493,7 @@
 				7F47D6696769AF7306858621 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
