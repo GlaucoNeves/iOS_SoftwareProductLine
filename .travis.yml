@@ -1,1 +1,5 @@
-  language: objective-c
+language: objective-c
+before_install:
+    - brew update
+    - brew install xctool
+script: xctool -workspace iOS_SoftwareProductLine.xcworkspace -scheme All_Tests test
