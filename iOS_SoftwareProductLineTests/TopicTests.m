@@ -28,8 +28,13 @@
 }
 
 - (void)testThatTopicExists {
-    Topic *topic = [[Topic alloc] init];
-    XCTAssertNotNil(topic, @"Should be able to create a Topic instance");
+    Topic *newTopic = [[Topic alloc] init];
+    XCTAssertNotNil(newTopic, @"Should be able to create a Topic instance");
+}
+
+- (void)testThatTopicCanBeNamed {
+    Topic *namedTopic = [[Topic alloc] initWithName:@"iPhone"];
+    XCTAssertEqualObjects(namedTopic.name, @"iPhone", @"The Topic should have the name I gave it");
 }
 
 @end

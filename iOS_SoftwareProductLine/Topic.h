@@ -6,5 +6,10 @@
 #import <Foundation/Foundation.h>
 
 
-@interface Topic : NSObject
+@interface Topic : NSObject {
+    NSString *name;
+}
+@property(readonly, copy) NSString *name;
+
+- (id)initWithName:(NSString *)newName;
 @end
