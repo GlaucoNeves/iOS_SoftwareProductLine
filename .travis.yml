@@ -2,5 +2,6 @@ language: objective-c
 before_install:
     - gem install cocoapods
     - brew update
+    - brew unlink xctool
     - brew install xctool
 script: xctool -workspace iOS_SoftwareProductLine.xcworkspace -scheme All_Tests test
