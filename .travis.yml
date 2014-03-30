@@ -4,4 +4,4 @@ before_install:
     - brew update
     - brew unlink xctool
     - brew install xctool
-script: xctool -workspace iOS_SoftwareProductLine.xcworkspace -scheme iOS_SoftwareProductLineTests test
+script: xctool -workspace iOS_SoftwareProductLine.xcworkspace -scheme iOS_SoftwareProductLineTests test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
