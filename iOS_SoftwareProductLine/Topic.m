@@ -10,10 +10,12 @@
 
 }
 @synthesize name;
+@synthesize tag;
 
-- (id)initWithName:(NSString *)newName {
-    if (self = [super init]){
+- (id)initWithName:(NSString *)newName tag:(NSString *)newTag {
+    if (self = [super init]) {
         name = [newName copy];
+        tag = [newTag copy];
     }
     return self;
 }

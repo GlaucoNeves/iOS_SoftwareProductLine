@@ -8,8 +8,10 @@
 
 @interface Topic : NSObject {
     NSString *name;
+    NSString *tag;
 }
 @property(readonly, copy) NSString *name;
+@property(readonly, copy) NSString *tag;
 
-- (id)initWithName:(NSString *)newName;
+- (id)initWithName:(NSString *)newName tag:(NSString *)newTag;
 @end

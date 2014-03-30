@@ -13,28 +13,29 @@
 
 @end
 
-@implementation TopicTests
-
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+@implementation TopicTests {
+    Topic *topic;
 }
 
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+- (void)setUp {
+    topic = [[Topic alloc] initWithName:@"iPhone" tag:@"iphone"];
+}
+
+- (void)tearDown {
+    topic = nil;
 }
 
 - (void)testThatTopicExists {
-    Topic *newTopic = [[Topic alloc] init];
-    XCTAssertNotNil(newTopic, @"Should be able to create a Topic instance");
+    XCTAssertNotNil(topic, @"Should be able to create a Topic instance");
 }
 
 - (void)testThatTopicCanBeNamed {
-    Topic *namedTopic = [[Topic alloc] initWithName:@"iPhone"];
-    XCTAssertEqualObjects(namedTopic.name, @"iPhone", @"The Topic should have the name I gave it");
+    XCTAssertEqualObjects(topic.name, @"iPhone", @"The Topic should have the name I gave it");
 }
+
+- (void)testThatTopicHasATag {
+    XCTAssertEqualObjects(topic.tag, @"iphone", @"Topics need to have tags");
+}
+
 
 @end
