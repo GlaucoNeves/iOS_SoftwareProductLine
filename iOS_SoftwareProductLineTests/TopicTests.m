@@ -37,5 +37,9 @@
     XCTAssertEqualObjects(topic.tag, @"iphone", @"Topics need to have tags");
 }
 
+- (void)testForAListOfQuestions {
+    XCTAssertTrue([[topic recentQuestions] isKindOfClass:[NSArray class]], @"Topics should provide a list of recent questions");
+}
+
 
 @end
