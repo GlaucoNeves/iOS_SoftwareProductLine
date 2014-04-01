@@ -10,6 +10,7 @@
 		7E0BD21CCE62453C9BF59A5D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFA14E8811E43CDBEC4237B /* libPods.a */; };
 		7F47D0A08F318C7A6E2FF12D /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47DD0D65323624EE0D1EBC /* Topic.m */; };
 		7F47D0F4DFAB59D9303489D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47D3C3E386648E416FA4B4 /* main.m */; };
+		7F47D107A8AD0AF1AE3B6A5E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47D2927398FC738E9D9B81 /* Person.m */; };
 		7F47D232F4E41B5AE0C78375 /* TopicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47D75A704890B582CE992B /* TopicTests.m */; };
 		7F47D254DDFC9894730C5856 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47D4706872348FE9A231BE /* AppDelegate.m */; };
 		7F47D29EF1F5BCB8373CB83C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F47DD6188970AB1A8C98E36 /* InfoPlist.strings */; };
@@ -17,6 +18,7 @@
 		7F47D3138C12252AB2766035 /* QuestionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47D4F91998E820638986D5 /* QuestionTests.m */; };
 		7F47D43A2B26812509BB06FA /* iOS_SoftwareProductLine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F47D4FEE292F9D666818FC8 /* iOS_SoftwareProductLine.xcdatamodeld */; };
 		7F47D5AE21AE7101A029BC6A /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47DC5EB2582B4849B16038 /* Question.m */; };
+		7F47D640EFF3A5615A817AA8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47D2927398FC738E9D9B81 /* Person.m */; };
 		7F47D6479D92792D780632BE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F47D4836A895C13FE152F8B /* CoreData.framework */; };
 		7F47D82369096EA663B09708 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F47D2D2CE04276A8CC35C68 /* Images.xcassets */; };
 		7F47D8FA5A6EB24F45916A44 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F47D086AC22F6BB14D2C625 /* XCTest.framework */; };
@@ -26,6 +28,7 @@
 		7F47DBB3BE507EA977F66ABF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F47D5C99BAF942AEE373A60 /* UIKit.framework */; };
 		7F47DC9ACC72A14ADF570C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F47DCF178D9E9496DD03DA6 /* Foundation.framework */; };
 		7F47DD064BBEBE0C38EE2DBB /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47DC5EB2582B4849B16038 /* Question.m */; };
+		7F47DD136A24348644CD6DB2 /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47D956E5A1A54A93A940D0 /* PersonTests.m */; };
 		7F47DDD0FE62DF7E69C3CAD8 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F47DD0D65323624EE0D1EBC /* Topic.m */; };
 		7F47DE53AD1C0135B3537AD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F47D855ACACF4A2A19A76EF /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
@@ -45,6 +48,7 @@
 		519BA170178F42518DBEB251 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		7F47D086AC22F6BB14D2C625 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7F47D1809C79ED7465BDCD4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F47D2927398FC738E9D9B81 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		7F47D2D2CE04276A8CC35C68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7F47D3C3E386648E416FA4B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F47D3CE71F28233626EFED0 /* iOS_SoftwareProductLine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "iOS_SoftwareProductLine-Info.plist"; sourceTree = "<group>"; };
@@ -58,9 +62,11 @@
 		7F47D65F63D6544EBEB92431 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7F47D75A704890B582CE992B /* TopicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTests.m; sourceTree = "<group>"; };
 		7F47D8EE77FB03707C0864B8 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
+		7F47D956E5A1A54A93A940D0 /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
 		7F47D996D58968AEBEE8A291 /* iOS_SoftwareProductLine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_SoftwareProductLine-Prefix.pch"; sourceTree = "<group>"; };
 		7F47DACA71298874272EB291 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F47DB2CF1BCFF79E337311F /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		7F47DB6DB63FD61874EBEE98 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		7F47DBDCB53780469DB3B95A /* iOS_SoftwareProductLine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_SoftwareProductLine.xcdatamodel; sourceTree = "<group>"; };
 		7F47DC5EB2582B4849B16038 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 		7F47DCA7845DF34BDCE8747C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -107,6 +113,8 @@
 				7F47D8EE77FB03707C0864B8 /* Topic.h */,
 				7F47DC5EB2582B4849B16038 /* Question.m */,
 				7F47DB2CF1BCFF79E337311F /* Question.h */,
+				7F47D2927398FC738E9D9B81 /* Person.m */,
+				7F47DB6DB63FD61874EBEE98 /* Person.h */,
 			);
 			path = iOS_SoftwareProductLine;
 			sourceTree = "<group>";
@@ -159,6 +167,7 @@
 				7F47DBC3B223F9C2D5A181DA /* Supporting Files */,
 				7F47D75A704890B582CE992B /* TopicTests.m */,
 				7F47D4F91998E820638986D5 /* QuestionTests.m */,
+				7F47D956E5A1A54A93A940D0 /* PersonTests.m */,
 			);
 			path = iOS_SoftwareProductLineTests;
 			sourceTree = "<group>";
@@ -303,6 +312,7 @@
 				7F47D43A2B26812509BB06FA /* iOS_SoftwareProductLine.xcdatamodeld in Sources */,
 				7F47DDD0FE62DF7E69C3CAD8 /* Topic.m in Sources */,
 				7F47DD064BBEBE0C38EE2DBB /* Question.m in Sources */,
+				7F47D107A8AD0AF1AE3B6A5E /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +324,8 @@
 				7F47D0A08F318C7A6E2FF12D /* Topic.m in Sources */,
 				7F47D3138C12252AB2766035 /* QuestionTests.m in Sources */,
 				7F47D5AE21AE7101A029BC6A /* Question.m in Sources */,
+				7F47DD136A24348644CD6DB2 /* PersonTests.m in Sources */,
+				7F47D640EFF3A5615A817AA8 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

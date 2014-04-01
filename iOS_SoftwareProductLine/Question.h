@@ -9,4 +9,6 @@
 @interface Question : NSObject
 
 @property(nonatomic, strong) NSDate *date;
+@property(nonatomic, strong) NSString *title;
+@property(nonatomic) int score;
 @end
