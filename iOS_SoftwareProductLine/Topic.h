@@ -5,15 +5,22 @@
 
 #import <Foundation/Foundation.h>
 
+@class Question;
+
 
 @interface Topic : NSObject {
     NSString *name;
     NSString *tag;
+    NSArray *questions;
 }
 @property(readonly, copy) NSString *name;
 @property(readonly, copy) NSString *tag;
 
+@property(nonatomic, strong) NSArray *questions;
+
 - (id)initWithName:(NSString *)newName tag:(NSString *)newTag;
 
 - (NSArray *)recentQuestions;
+
+- (void)addQuestion:(Question *)question;
 @end
